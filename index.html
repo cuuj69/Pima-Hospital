@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Pima Hospital Limited</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <!--- <a href="index.html"><img src="images/logo.png"></a>-->
+           <!---- <h2><i>PIMA</i></h2> -->
+                 <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                     <ul>
+                         <li><p><a href=""><b>Home</b></a></p></li>
+                         <li><p><a href=""><b>Pima Care</b></a></p></li>
+                         <li><p><a href=""><b>Services</b></a></p></li>
+                         <li><p><a href=""><b>About Us</b></a></p></li>
+                         <li><p><a href=""><b>Contact</b></a></p></li>
+                      </ul>
+                  </div>   
+                  <i class="fa fa-bars" onclick="showMenu()" ></i> 
+        </nav> 
+
+  <div class="text-box">
+      <h1>24/7 Hopital Services</h1>
+      <p><b> Pima Hopital Limited runs a 24 hour Service, Providing reliable & effecient Health Services is our Core Aim.</b></p>
+      <a href="" class="hero-btn">Book an Appointment(+233-(0)24-411-3836 )</a>
+  </div>
+  </section>
+
+  <!--Services--->
+  
+  <section class="service">
+      <h1> We Offer</h1>
+      <!--  <p>Hospital offers general healthcare services.<br>This primary hospital is N.H.I.S accredited
+      <br>We run a 24 hour healthcare facility.</p>--->
+      
+      <div class="row">
+        <div class="service-col">
+            <h3>General Healthcare Services</h3>
+            <p>Pima Hospital offers All general healthcare services.</p>
+        </div>
+
+        <div class="service-col">
+          <h3>24/7Attention</h3>
+          <p>Pima Hopital Limited runs a 24 hour Service, Providing reliable and effecient Health Services is our Core Aim</p>
+      </div>
+
+      <div class="service-col">
+        <h3>Insurance Funded Health services</h3>
+        <p>This primary hospital is N.H.I.S(National Health Insurance Scheme) accredited</p>
+    </div>
+
+      </div>
+
+  </section> 
+
+  <section class="facilities">
+    <h1>Resources & Facilitation</h1>
+    <!--<p>Our state of the art wards and patients attending center</p>-->
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/corridors1.png">
+            <div class="layer">
+              <h3><b>Consulting Area</b></h3>
+            </div>
+        </div>
+
+        <div class="facilities-col">
+          <img src="images/topwards1.png">
+          <div class="layer">
+            <h3><b>State of the Art Wards</b></h3>
+          </div>
+      </div>
+
+      <div class="facilities-col">
+        <img src="images/xraystuff1.png">
+        <div class="layer">
+          <h3><b>Ultrascan & Xray Machinery</b></h3>
+        </div>
+    </div>
+
+    <div class="facilities-col">
+      <img src="images/equipments.png">
+      <div class="layer">
+        <h3><b>Modern Equipped Laboratory</b></h3>
+      </div>
+  </div>
+
+  <div class="facilities-col">
+    <img src="images/ready.png">
+    <div class="layer">
+      <h3><b>Higly Trained Medical Staff</b></h3>
+    </div>
+</div>
+
+<div class="facilities-col">
+  <img src="images/reception1.png">
+  <div class="layer">
+    <h3><b>Serene Environment</b></h3>
+  </div>
+</div>
+
+    </div>
+
+  </section>
+
+  <!--Awards & Certification-->
+
+  <section class="certification">
+      <h1>Honours Certification & Accreditation</h1>
+      <p> Pima Hospital is a prestigious Hospital accredited by many maintream health Boards </p>
+
+      <div class="row">
+         <div class="certification-col">
+             <img src="images/award1.png">
+             <h3>Private Hospital Of the Decade Award</h3>
+             <p>Pima Hospital Limited & Healthcare services has been in active session for over two decades</p>
+            </div>
+            <div class="certification-col">
+              <img src="images/cert1.png">
+              <h3> The National Accreditation Board Endorsement</h3>
+              <p>Pima Hospital Limited & Healthcare services has been accredited by the National Accreditation Endorsement</p>
+             </div>
+
+             <div class="certification-col">
+              <img src="images/plaque1.png">
+              <h3> 2018 Prestige Hospital, Ashanti Region</h3>
+              <p>Winner of Prestige Honours private hospitals category(Reliable Efficient Services)</p>
+             </div>
+
+             
+          </div>
+
+
+  </section>
+
+
+
+
+    <menu>
+
+  <!-----JavaScript for toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0px";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+</html>    
